@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 62.5%;
+}
+div{
+    display: flex;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.box {
+  margin: 1rem;
+  padding: 1rem;
+  width: 30rem;
+  height: 20rem;
+  background-color: #ffbb00;
+  font-size: 2.4rem;
+  border-radius: 1rem;
+}
+
