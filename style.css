@@ -46,15 +46,15 @@ div {
   }
 }
 
-@media screen and (min-width: 700px) {
-    .container {
-      justify-content: center;
-      align-items: center;
-    }
-    .box {
-        flex-grow: 1;
-      margin: 1rem;
-      align-items: center;
-      justify-content: center;
-    }
+@media screen and (min-width: 645px) {
+  .container {
+    justify-content: center;
+    align-items: center;
   }
+  .box {
+    flex-grow: 1;
+    margin: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+}
